@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Overlay() {
   const containerRef = useRef<HTMLDivElement>(null);
-  
+
   // By placing this overlay absolutely over the 400vh container, we can track scroll within it
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -32,7 +32,7 @@ export default function Overlay() {
   return (
     <div ref={containerRef} className="absolute top-0 left-0 w-full z-10 pointer-events-none" style={{ height: "400vh" }}>
       <div className="fixed top-0 left-0 h-screen w-full flex flex-col items-center justify-center p-8 text-center text-white">
-        
+
         {/* Section 1 */}
         <motion.div style={{ opacity: opacity1, y: y1 }} className="absolute flex flex-col items-center justify-center w-full max-w-4xl px-4">
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6 gradient-text drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]">
@@ -62,8 +62,8 @@ export default function Overlay() {
           <p className="text-xl md:text-3xl tracking-widest uppercase font-light text-white/60 mb-6">
             Explore My Work
           </p>
-          <motion.div 
-            animate={{ y: [0, 10, 0] }} 
+          <motion.div
+            animate={{ y: [0, 10, 0] }}
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
             className="text-white/80"
           >
