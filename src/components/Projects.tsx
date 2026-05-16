@@ -26,7 +26,7 @@ const projects = [
     title: "DermaGenie – AI-Powered Skin Health Chatbot",
     description: "Achieved faster and more accessible healthcare query resolution through DermaGenie, an AI-powered multimodal chatbot built using Python, Gradio, Llama 3 Vision, and Whisper, resulting in real-time skin health assessment via image and voice inputs and enhanced user experience and accessibility.",
     tech: ["Python", "Gradio", "Llama 3 Vision", "Whisper"],
-    image: "https://images.unsplash.com/photo-1620662650058-295b92eeff9a?q=80&w=2070&auto=format&fit=crop"
+    image: "/dermagenie.png"
   },
   {
     title: "Data-Driven Breast Cancer Analysis Dashboard",
