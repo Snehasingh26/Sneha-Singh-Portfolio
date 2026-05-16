@@ -34,7 +34,7 @@ export default function About() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a
-            href="https://drive.google.com/uc?export=download&id=1nsF-OLJCJMDucVDnx1LbaGc4yXPnGBP8"
+            href="https://drive.google.com/uc?export=download&id=1hNHae7z6DQVwHq9_tRKdSHUeYK8Aip7D"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 bg-white text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3)]"
@@ -44,7 +44,7 @@ export default function About() {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1nsF-OLJCJMDucVDnx1LbaGc4yXPnGBP8/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1hNHae7z6DQVwHq9_tRKdSHUeYK8Aip7D/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white/60 hover:text-white flex items-center gap-2 underline underline-offset-4 decoration-white/30 transition-colors"
