@@ -6,20 +6,19 @@ const experiences = [
   {
     company: "Infosys Springboard",
     role: "Data Visualization Intern",
-    duration: "Nov 2024 – Dec 2024",
+    duration: "Nov 2024 - Dec 2024",
     points: [
-      "Developed interactive sales dashboard using Power BI and Excel",
-      "Cleaned and transformed raw data for analysis",
-      "Identified revenue patterns and business insights",
+      "Developed an interactive Power BI dashboard analyzing 5K+ sales records, improving KPI tracking and enabling data-driven business insights for revenue and customer trends.",
+      "Optimized and transformed raw Excel datasets using data cleaning and visualization techniques, reducing reporting effort by 30% and improving dashboard accuracy.",
     ]
   },
   {
     company: "Cisco Networking Academy",
     role: "Cybersecurity Intern",
-    duration: "May 2024 – July 2024",
+    duration: "May 2024 - July 2024",
     points: [
-      "Designed secure campus network using Cisco Packet Tracer",
-      "Learned network security fundamentals and defense mechanisms",
+      "Designed and configured a secure campus network using Cisco Packet Tracer, improving connectivity and strengthening simulated threat resilience.",
+      "Implemented cybersecurity and secure configuration practices through network defense and routing protocols in virtual lab environments.",
     ]
   }
 ];

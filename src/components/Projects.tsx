@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "AI Medical Bot",
-    description: "AI chatbot for skin-related health concerns (acne, rashes, infections). Supports image input (Llama 3 Vision) and voice queries (Whisper + gTTS).",
-    tech: ["Python", "Gradio", "Llama 3 Vision", "Whisper", "gTTS"],
+    title: "End-to-End Business Analytics & KPI Intelligence System",
+    description: "Achieved 25–30% faster and more accurate business reporting by developing an end-to-end KPI analytics system using Excel, Python (Pandas, NumPy), SQL (SQLite), and Power BI, resulting in automated sales, cost, and profit insights through interactive dashboards with 10+ KPIs, centralized data access, and improved real-time decision-making efficiency.",
+    tech: ["Excel", "Python", "SQL", "Power BI"],
   },
   {
-    title: "Breast Cancer Analysis Dashboard",
-    description: "Built interactive Power BI dashboard for cancer data visualization. Focused on simplifying complex health data for awareness and early detection.",
+    title: "DermaGenie – AI-Powered Skin Health Chatbot",
+    description: "Achieved faster and more accessible healthcare query resolution through DermaGenie, an AI-powered multimodal chatbot built using Python, Gradio, Llama 3 Vision, and Whisper, resulting in real-time skin health assessment via image and voice inputs and enhanced user experience and accessibility.",
+    tech: ["Python", "Gradio", "Llama 3 Vision", "Whisper"],
+  },
+  {
+    title: "Data-Driven Breast Cancer Analysis Dashboard",
+    description: "Achieved improved decision-support insights by developing an interactive Breast Cancer Analysis dashboard using Power BI, resulting in clear visualization of diagnostic KPIs, tumor patterns, and patient risk trends, enabling faster data interpretation and better analytical understanding of healthcare datasets.",
     tech: ["Power BI", "Data Analytics"],
-  },
-  {
-    title: "Supermarket Sales Analysis Dashboard",
-    description: "Created during Infosys internship. Analyzed revenue trends, customer behavior, and product performance.",
-    tech: ["Power BI", "Excel", "Data Analysis"],
   }
 ];
 
